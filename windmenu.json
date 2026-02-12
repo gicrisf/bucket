@@ -8,6 +8,19 @@
     "hash": "4ff35c16d0e30087d56baf98f7907d85bca3387b7a89ff407f7776f8e864c6bf",
     "bin": "windmenu.exe",
     "persist": "windmenu.toml",
+    "notes": [
+        "To get started, run:",
+        "  windmenu daemon all start",
+        "",
+        "Then press Win+Space to launch the menu.",
+        "",
+        "Optional:",
+        "  windmenu daemon all enable user-folder   # auto-start on login",
+        "  or",
+        "  windmenu daemon all enable --help  # to explore other auto-start options",
+        "",
+        "  To customize, edit your windmenu.toml configuration file."
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/gicrisf/windmenu/releases/download/v$version/windmenu-portable.zip"
