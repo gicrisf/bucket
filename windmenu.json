@@ -1,11 +1,11 @@
 {
-    "version": "0.5.2",
+    "version": "0.5.3",
     "description": "A fast application launcher for Windows with hotkey support, Start Menu discovery, and custom commands",
     "homepage": "https://github.com/gicrisf/windmenu",
     "license": "GPL-3.0-only",
     "depends": "wlines-daemon",
-    "url": "https://github.com/gicrisf/windmenu/releases/download/v0.5.2/windmenu-portable.zip",
-    "hash": "4ff35c16d0e30087d56baf98f7907d85bca3387b7a89ff407f7776f8e864c6bf",
+    "url": "https://github.com/gicrisf/windmenu/releases/download/v0.5.3/windmenu-portable.zip",
+    "hash": "3355a78f3fe5ea5853ff7a29aa3e3c01d2273ed77923a1b61f703a2e2fa267ac",
     "bin": "windmenu.exe",
     "persist": "windmenu.toml",
     "notes": [
