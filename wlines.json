@@ -1,0 +1,15 @@
+{
+    "version": "0.1.0",
+    "description": "A dmenu-like menu for Windows",
+    "homepage": "https://github.com/gicrisf/wlines",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/gicrisf/wlines/releases/download/v0.1.0/wlines.exe",
+    "hash": "31c0286ec5af67c9c8500c54a1d1562ea4da2c1c0e9c81207ce9bd93020f5aa6",
+    "bin": "wlines.exe",
+    "checkver": {
+        "github": "https://github.com/gicrisf/wlines"
+    },
+    "autoupdate": {
+        "url": "https://github.com/gicrisf/wlines/releases/download/v$version/wlines.exe"
+    }
+}

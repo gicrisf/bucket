@@ -1,0 +1,15 @@
+{
+    "version": "0.1.0",
+    "description": "Daemon version of wlines, a dmenu-like menu for Windows",
+    "homepage": "https://github.com/gicrisf/wlines",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/gicrisf/wlines/releases/download/v0.1.0/wlines-daemon.exe",
+    "hash": "0a824b78fe97030ed84fc19c0345620f265a46e8311e59f7fe859751e7550000",
+    "bin": "wlines-daemon.exe",
+    "checkver": {
+        "github": "https://github.com/gicrisf/wlines"
+    },
+    "autoupdate": {
+        "url": "https://github.com/gicrisf/wlines/releases/download/v$version/wlines-daemon.exe"
+    }
+}
